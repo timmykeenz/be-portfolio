@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Katherine Keenan — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --olive:#7c8450; --olive-deep:#545b38; --mustard:#c98a1e;
+    --ink:#33352a; --ink-soft:#55584a; --mute:#8a8c79; --line:#d9d4c2; --wash:#f1eee2;
+  }
+  *{box-sizing:border-box;}
+  @page{ size: Letter; margin: 0; }
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:"Nunito Sans",system-ui,sans-serif; color:var(--ink);
+    font-size:10.2px; line-height:1.4; background:#fff;
+  }
+  .page{ width:8.5in; min-height:11in; margin:0 auto; padding:0; background:#fff; display:flex; flex-direction:column; }
+
+  /* header */
+  .head{ text-align:center; padding:30px 54px 16px; }
+  .head h1{ font-family:"Fraunces",serif; font-weight:600; font-size:34px; letter-spacing:1px; margin:0; color:var(--ink); }
+  .head .role{ font-style:italic; color:var(--olive-deep); font-size:12px; margin:6px 0 4px; }
+  .head .loc{ color:var(--ink-soft); font-size:11px; letter-spacing:.04em; }
+  .rule{ height:2px; background:var(--olive); margin:10px 54px 0; }
+
+  /* body grid */
+  .grid{ display:grid; grid-template-columns:2in 1fr; gap:0; flex:1; align-items:stretch; }
+  .side{ background:var(--wash); padding:22px 22px 30px; }
+  .main{ padding:22px 30px 30px 24px; }
+
+  h2{ font-family:"Nunito Sans",sans-serif; text-transform:uppercase; letter-spacing:.14em;
+      font-size:10px; font-weight:700; color:var(--olive-deep); margin:0 0 7px;
+      padding-bottom:4px; border-bottom:1.5px solid var(--olive); }
+  .side section, .main section{ margin-bottom:15px; }
+  .side section:last-child, .main section:last-child{ margin-bottom:0; }
+
+  .blk{ margin-bottom:9px; }
+  .blk strong{ display:block; color:var(--ink); font-size:10.6px; }
+  .blk span{ display:block; color:var(--ink-soft); }
+  .muted{ color:var(--mute); }
+
+  ul{ margin:3px 0 0; padding-left:15px; }
+  li{ margin-bottom:3px; color:var(--ink-soft); }
+
+  /* main entries */
+  .entry{ margin-bottom:11px; }
+  .entry .row{ display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
+  .entry .title{ font-weight:700; color:var(--ink); font-size:11px; }
+  .entry .date{ color:var(--mustard); font-style:italic; font-size:9.6px; white-space:nowrap; }
+  .entry .where{ font-style:italic; color:var(--olive-deep); font-size:10px; margin:1px 0 3px; }
+  .summary{ color:var(--ink-soft); }
+</style>
+</head>
+<body>
+  <div class="page">
+    <header class="head">
+      <h1>Katherine Keenan</h1>
+      <div class="role">Inclusive Education &bull; English Education (ELA)</div>
+      <div class="loc">Rochester, NY</div>
+    </header>
+    <div class="rule"></div>
+
+    <div class="grid">
+      <!-- sidebar -->
+      <aside class="side">
+        <section>
+          <h2>Education</h2>
+          <div class="blk">
+            <strong>SUNY Brockport</strong>
+            <span>MSEd in English Inclusive Education</span>
+            <span class="muted">In Progress</span>
+          </div>
+          <div class="blk">
+            <strong>SUNY Brockport</strong>
+            <span>B.S. in English Adolescence Inclusive Education</span>
+            <span>Magna Cum Laude</span>
+            <span class="muted">Graduated December 2025</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Certifications</h2>
+          <div class="blk">
+            <strong>NYS Certified Teaching Asst.</strong>
+            <span class="muted">Level 1 &mdash; Issued 2021</span>
+          </div>
+          <div class="blk">
+            <strong>NYS Certification Exams</strong>
+            <span>Expected certification areas:</span>
+            <ul>
+              <li>English Language Arts 7-12, Initial Certificate</li>
+              <li>English Language Arts 5-6, Extension</li>
+              <li>Students With Disabilities (All Grades), Initial Certificate</li>
+            </ul>
+            <span class="muted">Scheduled &mdash; Summer 2026</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Honors &amp; Awards</h2>
+          <div class="blk">
+            <strong>Dean's List</strong>
+            <span class="muted">Fall 2023 &bull; Spring 2024 &bull; Fall 2024</span>
+          </div>
+          <div class="blk">
+            <strong>Sigma Tau Delta</strong>
+            <span class="muted">English Honor Society</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Workshops</h2>
+          <ul>
+            <li>School Violence Intervention &amp; Prevention</li>
+            <li>Child Abuse Identification</li>
+            <li>Dignity For All Students Act (DASA)</li>
+            <li>Autism</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Compliance</h2>
+          <ul><li>NYS Fingerprinted</li></ul>
+        </section>
+      </aside>
+
+      <!-- main -->
+      <main class="main">
+        <section>
+          <h2>Professional Summary</h2>
+          <p class="summary">English Inclusive Education educator with hands-on K-12 experience in inclusive and general education classrooms, passionate about building meaningful relationships with students.</p>
+        </section>
+
+        <section>
+          <h2>Field Experience &amp; Student Teaching</h2>
+
+          <div class="entry">
+            <div class="row"><span class="title">Teacher Candidate</span><span class="date">January 2026</span></div>
+            <div class="where">Byron-Bergen Elementary School &bull; Grades K-5 &bull; Bergen, NY</div>
+            <ul>
+              <li>Observed and collaborated with students in two 12:1:1 self-contained classrooms</li>
+              <li>Developed classroom management strategies tailored to younger learners with diverse needs</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <div class="row"><span class="title">Student Teaching</span><span class="date">September &ndash; December 2025</span></div>
+            <div class="where">Byron-Bergen Senior High School &bull; Grades 9-12 &bull; Bergen, NY</div>
+            <ul>
+              <li>Created and delivered comprehensive ELA units aligned with NYS standards</li>
+              <li>Provided consultant teacher supports in inclusive classroom settings</li>
+              <li>Participated in parent-teacher conferences and IEP meetings</li>
+              <li>Attended department and faculty meetings</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <div class="row"><span class="title">Teacher Candidate</span><span class="date">February &ndash; May 2025</span></div>
+            <div class="where">Honeoye Falls-Lima High School &bull; Honeoye Falls-Lima CSD &bull; Honeoye Falls, NY</div>
+            <ul>
+              <li>Created and taught an English lesson with inclusive supports</li>
+              <li>Led small group discussions and provided one-to-one student support</li>
+              <li>Observed Special Education self-contained classrooms and reviewed IEPs</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <div class="row"><span class="title">Teacher Candidate</span><span class="date">September &ndash; December 2024</span></div>
+            <div class="where">World of Inquiry School 58 &bull; Rochester City School District &bull; Rochester, NY</div>
+            <ul>
+              <li>Co-taught and created English lessons with inclusive supports</li>
+              <li>Led small group discussions and provided individualized student support</li>
+              <li>Attended department and parent meetings</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <div class="row"><span class="title">Teacher Candidate</span><span class="date">February &ndash; May 2024</span></div>
+            <div class="where">Byron-Bergen High School &bull; Byron-Bergen CSD &bull; Bergen, NY</div>
+            <ul>
+              <li>Taught a 9th-10th &amp; 12th grade 15:1 English class</li>
+              <li>Provided consultant teaching support in inclusive settings</li>
+              <li>Observed a 504 meeting and assisted in a resource room; reviewed IEPs</li>
+              <li>Attended English and Special Education department meetings; proctored exams</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Related Experience</h2>
+          <div class="entry">
+            <div class="row"><span class="title">Substitute Teacher</span><span class="date">February 2019 &ndash; Present</span></div>
+            <div class="where">Hilton Central School District &bull; Hilton, NY</div>
+          </div>
+          <div class="entry">
+            <div class="row"><span class="title">Teaching Assistant</span><span class="date">September 2020 &ndash; June 2023</span></div>
+            <div class="where">Hilton Central School District &bull; Hilton, NY</div>
+          </div>
+          <div class="entry">
+            <div class="row"><span class="title">Marching Band Instructor</span><span class="date">November 2017 &ndash; July 2023</span></div>
+            <div class="where">Rochester City School District &bull; Rochester, NY</div>
+          </div>
+          <div class="entry">
+            <div class="row"><span class="title">Private Tutor</span><span class="date">September 2019 &ndash; June 2021</span></div>
+            <div class="where">Rochester, NY</div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

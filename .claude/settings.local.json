@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -)",
+      "Bash(python3 -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8765/index.html)",
+      "Bash(curl -s -o /dev/null -w \"resume %{http_code} \\(%{size_download} bytes\\)\\\\n\" \"http://localhost:8765/assets/resume/Katherine-Keenan-Resume.pdf\")",
+      "Bash(curl -s -o /dev/null -w \"lesson  %{http_code}\\\\n\" \"http://localhost:8765/assets/lesson_plans/Poetry%20Stations%20%281%29.pdf\")",
+      "Bash(pkill -f \"http.server 8765\")",
+      "Bash(curl -s -o /dev/null -w \"server %{http_code}\\\\n\" http://localhost:8765/index.html)"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Katherine Keenan — Teaching Portfolio",
+  "short_name": "K. Keenan",
+  "description": "English and inclusive education teacher in the Rochester, NY area.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#f8f5ee",
+  "theme_color": "#7c8450",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
