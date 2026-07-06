@@ -88,18 +88,15 @@
   if (letterModal) {
     var letterBody = document.getElementById("letter-modal-body");
     var letterTitle = document.getElementById("letter-modal-title");
-    var letterPdf = document.getElementById("letter-modal-pdf");
     var letterClose = document.getElementById("letter-modal-close");
     var letterLastFocused = null;
 
     function openLetter(card) {
       var name = card.querySelector(".rec-card__name").textContent.trim();
       var tmpl = card.querySelector("template");
-      var pdf = card.querySelector(".rec-card__pdf");
       letterTitle.textContent = name;
       letterBody.innerHTML = "";
       letterBody.appendChild(tmpl.content.cloneNode(true));
-      letterPdf.setAttribute("href", pdf.getAttribute("href"));
       letterLastFocused = document.activeElement;
       letterModal.hidden = false;
       letterModal.setAttribute("aria-hidden", "false");

@@ -192,8 +192,6 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; line-height: 1.1; 
   transition: background .2s ease, color .2s ease;
 }
 .rec-card__more:hover { background: var(--olive); color: #fff; }
-.rec-card__pdf { font-size: .85rem; font-weight: 700; color: var(--ink-mute); }
-.rec-card__pdf:hover { color: var(--olive-deep); }
 
 /* ---------- lesson plans ---------- */
 .lessons { background: var(--paper); }
